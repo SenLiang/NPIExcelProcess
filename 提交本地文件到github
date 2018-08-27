@@ -1,0 +1,25 @@
+提交本地文件到github
+1. cd C:/Users/sen_liang/Desktop/upload
+
+2. git init
+
+3. git add .        （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）
+
+4. git commit  -m  "提交信息"  （注：“提交信息”里面换成你需要，如“first commit”）
+
+5. git remote add origin https://github.com/SenLiang/NPI-Excell-Processing-System-1.0.git
+
+6. git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
+
+https://blog.csdn.net/dou_being/article/details/52807232
+(解决git本地仓库与远程仓库关联出现 failed to push some refs to git的问题)
+
+可以通过如下命令进行代码合并【注：pull=fetch+merge]
+git pull --rebase origin master
+
+执行上面代码后可以看到本地代码库中多了README.md文件
+此时再执行语句 git push -u origin master即可完成代码上传到github
+
+不行的话把 已存在的git删除后，重新执行上面步骤
+
+删除github某个文件
