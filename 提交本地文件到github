@@ -22,4 +22,7 @@ git pull --rebase origin master
 
 不行的话把 已存在的git删除后，重新执行上面步骤
 
+ git am --show-current-patch
+
 删除github某个文件
+https://blog.csdn.net/wudinaniya/article/details/77508229(删除github中某个文件夹)
